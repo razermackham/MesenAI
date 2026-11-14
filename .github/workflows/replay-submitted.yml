@@ -51,7 +51,7 @@ jobs:
       ISSUE_LOGIN: ${{ github.event.issue.user.login }}
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # GitHub applies an Issue Form's `labels:` only when the label already
       # exists, so on a fresh repo the form's `replay` label is skipped and a
